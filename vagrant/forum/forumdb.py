@@ -15,6 +15,5 @@ def get_posts():
 
 def add_post(content):
   """Add a post to the 'database' with the current timestamp."""
-  POSTS.append((content, datetime.datetime.now()))
-  posts = cursor.fetchall()
-  return posts
+  cursor.execute("INSERT INTO posts (content, time) VALUES (%s, %s)", (content, datetime.datetime.now()))
+  conn.commit()

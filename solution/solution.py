@@ -37,7 +37,7 @@ print("\nMost popular authors of all time:")
 for author, views in authors:
     print(author + " -- " + str(views) + " views")
 
-# On which days did more than 1 % of requests lead to errors
+# On which days did more than 1% of requests lead to errors
 c.execute(
     "SELECT ok.day, ((nf.num::float / (ok.num + nf.num)) * 100) as errors "
     "FROM "

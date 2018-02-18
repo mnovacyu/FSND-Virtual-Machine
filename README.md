@@ -1,7 +1,10 @@
 # Logs Analysis Project
 This project's goal is to build an internal reporting tool that will use infromation from a database to discover what kind of articles the site's readers like.
 
-The project contains three major components: an Ubuntu virtual machine, a Postgres database, and a Python script for analyzing logs of the database.
+The project contains three major components:
+* an Ubuntu virtual machine
+* a Postgres database
+* a Python script for analyzing logs of the database.
 
 ## Ubuntu Virtual Machine
 Prerequsites: [Vagrant 2.0.2 or higher](https://www.vagrantup.com/)\

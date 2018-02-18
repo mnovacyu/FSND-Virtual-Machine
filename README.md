@@ -4,7 +4,7 @@ This project's goal is to build an internal reporting tool that will use infroma
 The project contains three major components: an Ubuntu virtual machine, a Postgres database, and a Python script for analyzing logs of the database.
 
 ## Ubuntu Virtual Machine
-Prerequsites: [Vagrant 2.0.2 or higher](https://www.vagrantup.com/)
+Prerequsites: [Vagrant 2.0.2 or higher](https://www.vagrantup.com/)\
 This vm is located in the `FSND-Virtual-Machine/vagrant` subdirectory.
 
 ## Postgres Database
@@ -29,4 +29,4 @@ The python script located under `solution/solution.py` analyzes the news data ba
 ### Run Log Analysis Tool
 1. From within the vm, download the `solution/solution.py` script
 1. Run the script - `python3 solution.py`
-1. A copy of the output is located in `solution/solution_output.txt`
+1. A copy of the intended output is located in `solution/solution_output.txt`

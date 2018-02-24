@@ -1,5 +1,5 @@
 # Logs Analysis Project
-This project's goal is to build an internal reporting tool that will use infromation from a database to discover what kind of articles the site's readers like.
+This project's goal is to build an internal reporting tool that will use information from a database to discover what kind of articles the site's readers like.
 
 The project contains three major components:
 * an Ubuntu virtual machine
